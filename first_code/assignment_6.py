@@ -139,7 +139,7 @@ def is_palindrome(s: str) -> bool:
 
 print(is_palindrome('radar'))
 
-#22 check-anagrams
+#22 check-if-two-words-are-anagrams
 def is_anagrams(s1: str, s2: str) -> str:
     if sorted(s1) == sorted(s2):
         return True
